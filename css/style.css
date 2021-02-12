@@ -2,6 +2,25 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: #1C263A;
+}
+
+.loading {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+.loading__gif {
+    width: 30%;
+}
+
 .card__games {
     width: 85%;
     display: flex;
@@ -11,10 +30,11 @@
 }
 
 .card {
-    width: 30%;
+    width: 32%;
     height: 300px;
     margin: 20px 0px;
-    background-color: lightpink;
+    border-radius: 10px;
+    background-color: #6DFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
